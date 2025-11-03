@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sienna Café - Onde Comer?</title>
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/global.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&family=Great+Vibes&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="totem-container">
+
+        <div class="header-image-container">
+            <img src="assets\Group 44.png" class="header-main-image" alt="Decoração do Café">
+
+
+        </div>
+
+        <div class="main-content-area container-fluid">
+
+            <h2 class="choice-title text-center">ONDE PREFERE COMER?</h2>
+
+            <div class="row w-100 justify-content-center g-4">
+
+                <div class="col-6 col-md-5 col-lg-4">
+                    <div class="selection-box" onclick="selecionarOpcao('Aqui');"
+                        style="justify-content: space-around; padding-bottom: 25px;">
+
+                        <img src="assets\cafe.png" alt="Comer no Local"
+                            style="max-height: 180px; width: auto; margin-top: 15px;">
+
+                        <p style="margin: 0;">AQUI</p>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-5 col-lg-4">
+                    <div class="selection-box" onclick="selecionarOpcao('Levar');"
+                        style="justify-content: space-around; padding-bottom: 25px;">
+
+                        <img src="assets\cafe2.png" alt="Para Viagem"
+                            style="max-height: 180px; width: auto; margin-top: 15px;">
+
+                        <p style="margin: 0;">VOU LEVAR</p>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <button type="button" class="btn-cancel-custom" onclick="window.location.href='inicio.html';">
+                CANCELAR PEDIDO
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script>
+        function selecionarOpcao(opcao) {
+            window.location.href = 'index.html';
+        }
+    </script>
+
+</body>
+
+</html>
